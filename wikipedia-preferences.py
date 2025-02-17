@@ -45,6 +45,13 @@ class MediaWikiSiteMatrix:
 
 class Preferences(collections.OrderedDict):
 	SCHEMA = {
+		'contents': {
+			'key': 'vector-feature-toc-pinned-clientpref',
+			'values': {
+				'hide': '0',
+				'sidebar': '1'
+			}
+		},
 		'appearance': {
 			'key': 'vector-feature-appearance-pinned-clientpref',
 			'values': {
